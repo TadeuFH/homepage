@@ -1,0 +1,123 @@
+*{
+margin:0;
+padding:0;
+}
+div{
+text-align:center;
+font-weight:bolder;
+}
+
+/* Divisões */
+#geral{
+width: 100%;
+height: 100%;
+margin: 0;
+border-width: thin;
+border-style: solid;
+
+
+}
+#cabecalho{
+background-color: rgb(0, 0, 0);
+height:5%;
+
+}
+#menu{
+	background-color:rgb(0, 0, 0);
+	
+}
+#menu ul li, 
+#menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#menu ul li{
+	display:inline-block;
+}
+#menu ul li a{
+	display:block;
+	color:#fff;
+	padding:13px 20px;
+}	
+a:link, a:visited, a:active {
+	text-decoration:none;
+	}
+a:hover {
+	text-decoration: underline; 
+	color:rgb(180, 17, 17); 
+	background:rgb(240, 240, 227); 
+	}
+
+#direita{
+	color: #fff;
+	background-image: url("nova.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+
+width: 100%;
+height:90%;
+
+}
+p{
+	color: #fff;
+}
+h1{
+	color: firebrick;
+}
+
+#galeria{
+	
+	display: inline-block;
+	border: 1px solid #000;
+	width: 100%;
+	margin-bottom: 10px;
+
+}
+
+
+#galeria img{
+	opacity: 0.5;
+	cursor: pointer; 
+	width: 150px;
+	margin: 5px;
+}
+
+#galeria img:hover{
+	opacity: 1;
+	
+}
+
+#conteiner{
+	
+	position: relative;
+	display: none;
+	width: 40%;
+	margin: auto;
+
+}
+
+#conteiner img{
+	width: 100%;
+	
+}
+
+#btnFechar{
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	color: #fff;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+#uni{
+	
+	border-radius: 50%;
+	border: 5px solid white;
+	width: 200;
+	height: 200;
+}
